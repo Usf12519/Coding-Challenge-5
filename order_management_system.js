@@ -8,3 +8,7 @@ const inventory = [
     
 ];
 
+// Task 2: Create an Orders Array of Order Objects
+
+let orders = [];
+
