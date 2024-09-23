@@ -38,5 +38,13 @@ function calculateTotal(orders) = {
 let customerOrders = [2700 , 700 , 300 , 650];
 let totalAmount = calculateTotal (customerOrders);
 console.log ('Total Amount: $${totalAmount}');
+Status =  'completed'
 
+// Task 5: Create a Function to Mark an Order as Completed
 
+function completeOrder (customername);
+    const order = order.find((customername) => {
+        return orders.name === 'Bed'
+    })
+
+    console.log(foundorders)
