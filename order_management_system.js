@@ -12,3 +12,15 @@ const inventory = [
 
 let orders = [];
 
+// Task 3: Create a Function to Place an Order
+
+
+function placeOrder(customername, itemsOrdered)
+    orders.push(
+        custName: customername
+        items: itemsOrdered
+        status: 'pending'
+    );
+
+placeOrder('Jasmine' , [{name: chair , quantity: 3}]);
+console.log(orders)
