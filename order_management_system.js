@@ -24,3 +24,19 @@ function placeOrder(customername, itemsOrdered)
 
 placeOrder('Jasmine' , [{name: chair , quantity: 3}]);
 console.log(orders)
+
+// Task 4: Create a Function to Calculate Total for an Order
+
+function calculateTotal(orders) = {
+    let total = 0
+    for ( let inventory = 0; inventory < orders.length; inventory + +) {
+        total += orders[inventory];
+    }
+    return total;
+}
+
+let customerOrders = [2700 , 700 , 300 , 650];
+let totalAmount = calculateTotal (customerOrders);
+console.log ('Total Amount: $${totalAmount}');
+
+
