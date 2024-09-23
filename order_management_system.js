@@ -48,3 +48,12 @@ function completeOrder (customername);
     })
 
     console.log(foundorders)
+
+// Task 6: Create a Function to Check Pending Orders
+
+function checkPendingOrders (
+    orders.foreach((order) => {
+        console.log(order.pending)
+    })
+    
+
